@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="kitten_picture_description">This is a very cute kitten.</string>
+    <string name="kitten_button_text">Scare kitten!</string>
+</resources>

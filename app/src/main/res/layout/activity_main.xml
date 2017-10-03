@@ -4,12 +4,33 @@
 
 
     <TextView
+        android:id="@+id/top_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        
-         />
+        />
+
+    <ImageView
+
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/top_text_view"
+        android:src="@drawable/lovely_kitten"
+        android:id="@+id/kitten_image"
+        android:layout_centerHorizontal="true"
+
+        android:contentDescription="@string/kitten_picture_description" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kitten_button"
+        android:layout_below="@+id/kitten_image"
+        android:layout_centerHorizontal="true"
+        android:text="@string/kitten_button_text"
+
+        />
 
 </RelativeLayout>
